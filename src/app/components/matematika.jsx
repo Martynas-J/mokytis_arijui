@@ -113,7 +113,7 @@ const Matematika = ({ action, updateScores, passedLevelsDb, setPassedLevels, tit
         <h2 className="text-2xl lg:text-4xl font-semibold mb-4 text-blue-600 text-center ">
           {title.toUpperCase()}
         </h2>
-        <div className="grid grid-cols-4 gap-4 mb-8">
+        <div className="grid grid-cols-5 gap-4 mb-8 text-sm sm:text-xl">
           {levels.map((lvl, index) => (
             <button
               key={index}
