@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center  p-4">
+    <div className="flex flex-col items-center justify-center  p-4 sm:px-0">
       <div className="space-y-4">
         <Link
           href="/mathematical"

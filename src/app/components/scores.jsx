@@ -101,8 +101,8 @@ export default function Scores({ action, title }) {
   };
 
   return (
-    <main className="flex min-h-screen flex-col items-center bg-blue-50 p-4">
-      <div className="mb-8 w-full flex gap-2 justify-around text-md md:text-xl lg:text-3xl text-green-500">
+    <main className="flex min-h-screen flex-col items-center bg-blue-50 p-1 sm:p-4">
+      <div className="mb-8 w-full flex gap-2 justify-around text-sm sm:text-lg md:text-xl lg:text-3xl text-green-500">
         <div>Sudėtis : {pointsAddition}</div>
         <div>Atimtis : {pointsSubtraction}</div>
         <div>Daugyba : {pointsMultiplication}</div>
